@@ -18,3 +18,8 @@ Number       form
 You are asked to create a function to help Alice from Digiterra convert the number she enters. 
 
 Demonstrate the function with various inputs, including required validations. As Data Analysis students, try to bring out some analysis with these numbers!
+
+
+31/08/23
+
+lab03
