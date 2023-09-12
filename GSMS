@@ -1,13 +1,7 @@
 
-name	:	mayuri
-product	:	banana
-Quantity	:	6
-name	:	yashi
-product	:	apple
-Quantity	:	1
-name	:	rayan
-product	:	grapes
-Quantity	:	20
-name	:	ansel
-product	:	peaches
-Quantity	:	3
+	mayuri
+	guava
+	3
+	yashi
+	apple
+	3
