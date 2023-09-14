@@ -12,3 +12,4 @@ Email: yashi.s@msds.christuniversity.in
 |  003          | Lab 03        | Create a function to calculate Mean, Minimum, Maximum, Range        |https://github.com/yashi7/MScDSB-MDS171-23122144-Yashi/blob/main/Lab%2003.ipynb                  |
 |  004          | Lab 04        | Create a GSMS system            |https://github.com/yashi7/MScDSB-MDS171-23122144-Yashi/blob/main/Lab%2004.ipynb    |
 | 005           | Lab 05        | count the vowels            | https://github.com/yashi7/MScDSB-MDS171-23122144-Yashi/blob/main/Lab%2005.ipynb                   |
+| 006           | Lab 06        | file with 100 rows using random            | https://github.com/yashi7/MScDSB-MDS171-23122144-Yashi/tree/main/Lab%2006             |
