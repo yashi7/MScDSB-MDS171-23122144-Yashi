@@ -13,3 +13,5 @@ Email: yashi.s@msds.christuniversity.in
 |  004          | Lab 04        | Create a GSMS system            |https://github.com/yashi7/MScDSB-MDS171-23122144-Yashi/blob/main/Lab%2004.ipynb    |
 | 005           | Lab 05        | count the vowels            | https://github.com/yashi7/MScDSB-MDS171-23122144-Yashi/blob/main/Lab%2005.ipynb                   |
 | 006           | Lab 06        | file with 100 rows using random            | https://github.com/yashi7/MScDSB-MDS171-23122144-Yashi/tree/main/Lab%2006             |
+| 007           | Lab 07        | Expense tracker           | https://github.com/yashi7/MScDSB-MDS171-23122144-Yashi/blob/main/Lab%2007.py             |
+| 008           | Lab 08        | Stack class           |              |
