@@ -3,35 +3,37 @@ class petstore:
         self.pets={
             "dogs":[],
             "cats":[]
-
         }
         
         
-    def add_details(self,breed,age,gender,price):
-            details={
+    def add_details(self,type,breed,age,gender,price):
+            self.pets[type].append({
                 "breed":breed,
                 "age":age,
                 "gender":gender,
                 "price":price,
-            }
-            if type=="dogs":
-                self.pets["dogs"].append(details)
-            elif type=="cats":
-                self.pets["cats"].append(details)
+            })
+            # if type=="dogs":
+            #     self.pets["dogs"].append(details)
+            # elif type=="cats":
+            #     self.pets["cats"].append(details)
     def search(self,type):
         type=input("enter the type of pet")
-        for item in self.pets[type]:
-            for i in self.pets.values(i):
-                if i == type:
-                    print("true")
-                else:
-                    print("false")
-    def sell(self,type):
-        type=input("enter the type of pet you want ")
-        for item in self.pets[type]:
-            for i in self.pets.values(i):
-                print(self.pets[item]['price'][i])
-                self.pets["dogs"].pop(i)
+        if type in self.pets:
+            for item in self.pets[type]:
+                print(item)
+        # for item in self.pets[type]:
+        #     for i in self.pets.values(i):
+        #         if i == type:
+        #             print("true")
+        #         else:
+        #             print("false")
+    # def sell(self,type):
+    #     type=input("enter the type of pet you want ")
+    #     for item in self.pets[type]:
+    #         for i in self.pets.values(i):
+    #             print(self.pets[item]['price'][i])
+    #             self.pets["dogs"].pop(i)
     def print(self):
         print(self.pets)
 
@@ -67,4 +69,6 @@ while True:
         pets.print()
     elif choice=="5":
         exit
+
+
 
