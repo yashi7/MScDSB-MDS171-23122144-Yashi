@@ -3,37 +3,37 @@ class petstore:
         self.pets={
             "dogs":[],
             "cats":[]
+
         }
         
         
     def add_details(self,type,breed,age,gender,price):
-            self.pets[type].append({
+            details={
                 "breed":breed,
                 "age":age,
                 "gender":gender,
                 "price":price,
-            })
-            # if type=="dogs":
-            #     self.pets["dogs"].append(details)
-            # elif type=="cats":
-            #     self.pets["cats"].append(details)
-    def search(self,type):
+            }
+            if type=="dogs":
+                self.pets["dogs"].append(details)
+            elif type=="cats":
+                self.pets["cats"].append(details)
+    def search(self):
         type=input("enter the type of pet")
+        breed=input("enter the breed")
         if type in self.pets:
             for item in self.pets[type]:
-                print(item)
-        # for item in self.pets[type]:
-        #     for i in self.pets.values(i):
-        #         if i == type:
-        #             print("true")
-        #         else:
-        #             print("false")
-    # def sell(self,type):
-    #     type=input("enter the type of pet you want ")
-    #     for item in self.pets[type]:
-    #         for i in self.pets.values(i):
-    #             print(self.pets[item]['price'][i])
-    #             self.pets["dogs"].pop(i)
+                if item["breed"]==breed:
+                    print(item)
+    def sell(self):
+      type=input("enter the type")
+      breed=input("enter the breed")
+      if type in self.pets:
+        for item in self.pets[type]:
+          if item["breed"]==breed:
+            print("your order is done \n","please pay:",item["price"])
+
+            
     def print(self):
         print(self.pets)
 
@@ -59,7 +59,7 @@ while True:
         breed,age,gender,price= collectInput()
         pets.add_details("dogs",breed,age,gender,price)
     elif choice=="2":
-        breed,age,gender,price=pets.collectInput()
+        breed,age,gender,price=collectInput()
         pets.add_details("cats",breed,age,gender,price)
     elif choice=="3":
         pets.search()
@@ -67,8 +67,7 @@ while True:
         pets.sell()
     elif choice=="5":
         pets.print()
-    elif choice=="5":
-        exit
-
-
-
+    elif choice=="6":
+        exit()
+    else:
+        print("yes")

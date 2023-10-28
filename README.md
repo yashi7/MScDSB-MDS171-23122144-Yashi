@@ -15,3 +15,4 @@ Email: yashi.s@msds.christuniversity.in
 | 006           | Lab 06        | file with 100 rows using random            | https://github.com/yashi7/MScDSB-MDS171-23122144-Yashi/tree/main/Lab%2006             |
 | 007           | Lab 07        | Expense tracker           | https://github.com/yashi7/MScDSB-MDS171-23122144-Yashi/blob/main/Lab%2007.py             |
 | 008           | Lab 08        | Stack class           | https://github.com/yashi7/MScDSB-MDS171-23122144-Yashi/blob/main/Lab%2008.py             |
+| 009           | Lab 09        | petstore         |             |
